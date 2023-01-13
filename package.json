@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-e2e-cypress",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open --browser=electron --e2e --config-file=cypress.config.js",
+    "cypress:run": "cypress run --browser=electron --e2e --config-file=cypress.config.js",
+    "lint": "eslint --ext .js ."
+  },
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "3.2.3",
+    "eslint": "^7.32.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "faker": "^5.5.3"
+  }
+}
